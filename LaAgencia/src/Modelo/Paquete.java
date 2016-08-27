@@ -10,5 +10,5 @@ package Modelo;
  * @author Melisa
  */
 public class Paquete {
-    
+    private String fecha; 
 }
