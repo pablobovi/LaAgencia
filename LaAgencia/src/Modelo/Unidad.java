@@ -9,6 +9,29 @@ package Modelo;
  *
  * @author pablo.navarro
  */
-public class Unidad {
+public class Unidad { 
+    private String identificacion; 
+
+    public Unidad() {
+    }
+
+    public Unidad(String identificacion) {
+        this.identificacion = identificacion;
+    }
+
+    public String getIdentificacion() {
+        return identificacion;
+    }
+
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Unidad{" + "identificacion=" + identificacion + '}';
+    }
+    
+    
     
 }

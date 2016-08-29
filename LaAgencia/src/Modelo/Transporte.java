@@ -9,6 +9,8 @@ package Modelo;
  *
  * @author pablo.navarro
  */
-public class Transporte {
+public class Transporte { 
+   private int nrounidad; 
+  
     
 }
