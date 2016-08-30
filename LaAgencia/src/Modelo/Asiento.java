@@ -11,4 +11,6 @@ package Modelo;
  */
 public class Asiento {
     
+    orivate int numero;
+    
 }
