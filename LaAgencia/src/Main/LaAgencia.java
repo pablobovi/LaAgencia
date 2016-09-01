@@ -5,6 +5,10 @@
  */
 package Main;
 
+import Controlador.AdaptadorApi;
+import Modelo.Ciudad;
+import java.util.ArrayList;
+
 /**
  *
  * @author Alumno
@@ -16,8 +20,9 @@ public class LaAgencia {
      */
     public static void main(String[] args) {
         
-        System.out.println("mundo de franco");
-        // TODO code application logic here
+         System.out.println("hola");
+         ArrayList <Ciudad> ciudades = AdaptadorApi.inicializarCiudades();
+         System.out.println(ciudades);
     }
     
 }
